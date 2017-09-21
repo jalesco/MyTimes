@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 80px;
+  background-color: white;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: MediumAquamarine;
+  padding-left: 30px;
+}
+
+.logo span {
+  margin-left: 10px;
+}
+
+header nav span {
+  padding-right: 20px;
+}
+
+/* Main section styles*/
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 130px;
+
+}
+
+.image-content {
+  border: 1px solid black;
+}
+
+.lead-story {
+  border: 5px solid black;
+}
+
+.lead-story .narrative {
+  font-size: 40px;
+}
+
+.lead-image {
+  display: flex;
+  background-image: url(images/story-main.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-items: center;
+}
+
+.lead-image span {
+  padding-left: 20px;
+}
+
+.cat-ceo-image {
+  background-image: url(images/cat-ceo.png);
+}
+
+.minor-stories {
+  border: 5px solid black;
+}
+
+.news-bites {
+  border: 1px solid black;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
